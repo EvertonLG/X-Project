@@ -181,6 +181,3 @@ LinkedIn: https://www.linkedin.com/in/everton-lima-gomes/
 
 Obrigado por conferir o X Project! 🚀✨
 =======
-# X-Project
-Projeto front-end desenvolvido em React e TypeScript que simula um sistema de reserva de passagens espaciais utilizando dados reais da API da SpaceX.
->>>>>>> 594e321f6922d646fad71306287a551106c6db8a
