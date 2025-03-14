@@ -1,38 +1,137 @@
+
+body {
+  background-color: #0b0d17; /* Cor de fundo escura */
+  color: #ffffff; /* Texto branco */
+  font-family: 'Roboto', sans-serif; /* Tipografia moderna */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo da App */
 .App {
   text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Fundo transparente */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px); /* Efeito de desfoque de fundo */
 }
 
+/* Logo da aplicação */
 .App-logo {
-  height: 40vmin;
+  height: 25vmin; /* Logo maior */
   pointer-events: none;
+  margin-bottom: 20px; /* Espaço inferior */
+  transition: transform 1s ease-in-out; /* Transição suave */
 }
 
+/* Animação de rotação da logo */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 15s linear;
   }
 }
 
+/* Cabeçalho da aplicação */
 .App-header {
-  background-color: #282c34;
+  background-color: #0b0d17;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffffff;
+  padding: 40px;
+  text-align: center;
 }
 
+/* Link para navegação */
 .App-link {
-  color: #61dafb;
+  color: #00aaff; /* Cor azul futurista */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
 }
 
+.App-link:hover {
+  color: #0077cc;
+}
+
+/* Animação de rotação da logo */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Estilo para o título */
+h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: #00aaff; /* Cor futurista */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Estilo para subtítulos */
+h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Botão de ação */
+button {
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  background-color: #00aaff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0077cc;
+  transform: scale(1.05);
+}
+
+/* Estilo para imagens */
+.img-fluid {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #00aaff;
+}
+
+/* Media queries para tela pequena */
+@media (max-width: 768px) {
+  .App-logo {
+    height: 20vmin;
+  }
+
+  .App-header {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 }

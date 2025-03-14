@@ -1,0 +1,182 @@
+.home-background {
+  background-image: url('https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.spacex-logo {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-label {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.form-control, .form-select, .form-control-textarea {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  width: 100%;
+}
+
+.form-control:focus, .form-select:focus, .form-control-textarea:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
+}
+
+.btn-primary {
+  background-color: #1a8cff;
+  border: none;
+  transition: background-color 0.3s ease;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #007bff;
+}
+
+.custom-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+
+.form-control-textarea {
+  resize: vertical;
+}
+.futuristic-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #1a8cff, #00ffcc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+  }
+  to {
+    text-shadow: 0 0 20px rgba(0, 255, 255, 1);
+  }
+}
+.futuristic-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  background: linear-gradient(90deg, #1a8cff, #00ffcc);
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.futuristic-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: left 0.4s ease-in-out;
+}
+
+.futuristic-button:hover::before {
+  left: 100%;
+}
+
+.futuristic-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+}
+.futuristic-toggle-group {
+  display: flex;
+  gap: 10px;
+}
+
+.futuristic-toggle {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.futuristic-toggle:hover {
+  transform: scale(1.05);
+}
+
+.futuristic-toggle.btn-success {
+  background: linear-gradient(90deg, #28a745, #00ff99);
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 255, 153, 0.5);
+}
+
+.futuristic-toggle.btn-danger {
+  background: linear-gradient(90deg, #dc3545, #ff6666);
+  border: none;
+  box-shadow: 0 0 10px rgba(255, 102, 102, 0.5);
+}
+
+.futuristic-toggle.btn-outline-light {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: none;
+}
+
+.futuristic-toggle.btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
