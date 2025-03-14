@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Título do Projeto
 
