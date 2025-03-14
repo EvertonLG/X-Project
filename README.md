@@ -1,7 +1,6 @@
 
 # X Project
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 🚀 X Project - Reserva de Passagens Espaciais
 O X Project é um projeto front-end desenvolvido em React e TypeScript que simula um sistema de reserva de passagens espaciais utilizando dados reais da API da SpaceX. O projeto foi criado para oferecer uma experiência imersiva e futurista, com design inspirado na temática espacial e funcionalidades interativas.
@@ -179,4 +178,4 @@ GitHub: https://github.com/EvertonLG
 LinkedIn: https://www.linkedin.com/in/everton-lima-gomes/
 
 Obrigado por conferir o X Project! 🚀✨
-=======
+
