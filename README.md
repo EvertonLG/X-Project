@@ -66,7 +66,7 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/x-project.git
+git clone https://github.com/EvertonLG/x-project.git
 cd x-project
 ```
 
