@@ -130,6 +130,7 @@ No arquivo `package.json`, você encontrará os seguintes scripts:
 
 ## 📂 Estrutura do Projeto
 
+```plaintext
 x-project/
 ├── public/                  # Arquivos estáticos (HTML base, favicons, etc.)
 ├── src/                     # Código fonte da aplicação
@@ -154,8 +155,7 @@ x-project/
 ├── tsconfig.json            # Configuração do compilador TypeScript
 └── README.md                # Documentação do projeto
 
-
----
+```
 
 ## 🧠 Conceitos e Bibliotecas
 
